@@ -178,7 +178,7 @@ ${analysis.freeTips?.join(", ")}
                  src={LOGO}
                  alt="Logo"
                  className="w-20 h-18 "
-               /><p>Resume AI ATS </p>
+               /><p>Resume Ai Analyzer </p>
               
              </div>
    
@@ -211,7 +211,7 @@ ${analysis.freeTips?.join(", ")}
       <section className="relative grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-10 px-6 py-16 md:py-24 bg-[#0B0E14] overflow-hidden text-center md:text-left">
   {/* Left Column - Robo Animation */}
   <div
-   
+  className="p-8" 
   >
     <Robo />
   </div>
@@ -482,7 +482,7 @@ ${analysis.freeTips?.join(", ")}
       {/* FOOTER */}
       {!analysis && (
         <footer className="text-center py-8 text-gray-400 text-sm bg-slate-950/70 mt-10">
-          © {new Date().getFullYear()} AI Resume ATS  Analyzer · Build by Manikandan UKI
+          © {new Date().getFullYear()} AI Resume ATS  Analyzer · Developed by Manikandan UKI
        <p>Powerd By puter Js </p>
         </footer>
         
